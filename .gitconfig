@@ -1,0 +1,11 @@
+[user]
+        name = NAME
+        email = EMAIL
+[alias]
+        st = status
+	co = checkout
+        cm = commit
+        br = branch
+        df = diff --color
+        lg = log --color
+        graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
