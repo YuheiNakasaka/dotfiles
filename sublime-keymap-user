@@ -1,0 +1,5 @@
+[
+  { "keys": ["ctrl+q"], "command": "toggle_side_bar" },
+    { "keys": ["f1"], "command": "goto_documentation" },
+    { "keys": ["ctrl+shift+."], "command": "erb" }
+]
