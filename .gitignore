@@ -1,0 +1,29 @@
+# Nix build outputs
+result
+result-*
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Secrets and credentials
+.secrets
+*.key
+*.pem
+id_rsa
+id_ed25519
+credentials
+
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules (if any scripts use Node.js)
+node_modules/
