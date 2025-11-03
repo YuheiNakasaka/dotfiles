@@ -41,6 +41,11 @@ curl -fsSL https://install.determinate.systems/nix | sh -s -- install
 nix --version
 ```
 
+Homebrewのインストール：
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ### 2. Command Line Tools for Xcodeのインストール
 
 ```bash

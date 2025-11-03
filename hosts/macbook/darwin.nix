@@ -14,31 +14,6 @@
     wget
   ];
 
-  # Nix configuration
-  nix = {
-    package = pkgs.nix;
-    optimise.automatic = true;
-
-    settings = {
-      # Enable flakes and nix-command
-      experimental-features = [ "nix-command" "flakes" ];
-
-      # Trusted users
-      trusted-users = [ "@admin" userConfig.username ];
-    };
-
-    # Garbage collection
-    gc = {
-      automatic = true;
-      interval = {
-        Weekday = 0;  # Sunday
-        Hour = 2;
-        Minute = 0;
-      };
-      options = "--delete-older-than 30d";
-    };
-  };
-
   # System state version
   system.stateVersion = 4;
 

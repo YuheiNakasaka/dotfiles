@@ -32,7 +32,10 @@
           specialArgs = { inherit userConfig; };
           modules = [
             ./hosts/macbook/darwin.nix
-
+            # nix-darwin does'nt need nix.
+            ({ ... }: {
+              nix.enable = false;
+            })
             home-manager.darwinModules.home-manager
             {
               home-manager = {
