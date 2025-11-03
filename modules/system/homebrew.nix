@@ -10,12 +10,6 @@
       upgrade = true;
     };
 
-    # Taps
-    taps = [
-      "homebrew/cask"
-      "homebrew/core"
-    ];
-
     # GUI Applications via Homebrew Cask
     casks = [
       # Development Tools
@@ -39,7 +33,7 @@
       "bitwarden"           # Password manager GUI
 
       # Other Tools
-      "kindle"              # Kindle reader
+      # "kindle"              # Kindle reader(outdated)
     ];
 
     # Additional formula via Homebrew (for tools better managed via brew)
