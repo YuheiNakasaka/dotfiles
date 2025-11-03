@@ -68,9 +68,6 @@
       zle -N peco-select-history
       bindkey '^r' peco-select-history
 
-      # peco: SSH host selection
-      alias ssh-peco='ssh $(grep -w Host ~/.ssh/config | awk '\''{print $2}'\'' | peco)'
-
       # Source secrets file if it exists (managed by Bitwarden)
       if [ -f "$HOME/.secrets" ]; then
         source "$HOME/.secrets"

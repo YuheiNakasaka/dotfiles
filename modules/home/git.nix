@@ -18,7 +18,7 @@
         cm = "commit";
         br = "branch";
       };
-    }
+    };
 
     # Git LFS
     lfs.enable = true;

@@ -76,7 +76,7 @@ bw login
 # セッションキーを取得してエクスポート
 export BW_SESSION=$(bw unlock --raw)
 
-# jqのインストール（この時点ではbrewが使えないため、バイナリを直接ダウンロード）
+# (任意)jqのインストール（この時点ではbrewが使えないため、バイナリを直接ダウンロード）
 curl -L https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-arm64 -o /tmp/jq
 sudo mv /tmp/jq /usr/local/bin/jq
 sudo chmod +x /usr/local/bin/jq

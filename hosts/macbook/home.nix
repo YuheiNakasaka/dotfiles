@@ -6,6 +6,7 @@
     ../../modules/home/packages.nix
     ../../modules/home/shell.nix
     ../../modules/home/git.nix
+    ../../modules/home/macos-settings.nix
   ];
 
   # Home Manager settings
